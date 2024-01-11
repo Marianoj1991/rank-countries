@@ -1,0 +1,21 @@
+.search-container {
+  display: flex;
+  gap: .7rem;
+  background-color: #282B30;
+  padding: .4rem;
+  border-radius: .7rem;
+}
+
+.search-form {
+  border-radius: 1rem;
+  width: 300px;
+}
+
+.search-form-input {
+  background-color: transparent;
+  border: none;
+  padding-right: 2rem;
+  outline: none;
+  width: 100%;
+}
+

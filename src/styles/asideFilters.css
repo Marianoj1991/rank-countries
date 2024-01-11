@@ -1,0 +1,55 @@
+.aside {
+  max-width: 25%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.sort-div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.sort-div--label {
+  color: #6C727F;
+  font-size: 14px;
+}
+
+.sort-div--select {
+  padding: 5px;
+  border-radius: .5rem;
+  background-color: transparent;
+  padding: 10px;
+}
+
+.sort-div--select option {
+  background-color: #282B30;
+  font-size: 20px;
+}
+
+.div-input {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.input-choice {
+  width: 100px;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.with-background {
+  background-color: #282b30;
+}
+/* input[type="radio"] ~ div.input-choice {
+  background-color: #282B30;
+} */
+
+
+
+
+
+
