@@ -18,7 +18,6 @@ export function AsideFilters() {
 
   const handleSortChange = (e) => {
     const term = e.target.value
-    console.log('TERM: ', term)
     handleSetSort(term)
   }
 
